@@ -1,0 +1,30 @@
+# Databricks
+.databricks/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.pem
+*.key
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large / Local data files
+*.parquet
+*.zip
+*.csv
+data/
