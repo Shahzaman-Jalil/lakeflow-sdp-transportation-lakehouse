@@ -34,7 +34,7 @@ flowchart LR
  
 The DAG below is the actual pipeline as it runs in Databricks: S3 source → bronze → silver → `fact_trips` → city-level views.
  
-![Pipeline DAG](images/pipeline_dag.png.PNG)
+ ![Pipeline DAG](images/pipeline_dag.png)
  
 | Layer | Purpose | Objects |
 |---|---|---|
